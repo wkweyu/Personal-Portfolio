@@ -1,0 +1,159 @@
+nav a {
+    display: block;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+#projects a {
+    text-decoration: none;
+}
+
+a p {
+    font-size: 20px;
+    color: red;
+}
+
+#work-2 {
+    text-align: center;
+}
+
+#work-1 {
+    text-align: right;
+}
+
+.work {
+    border-radius: 41px;
+    background: linear-gradient(45deg, #b9bbbc, #dbdfe0);
+    box-shadow: 5px -5px 46px #b6b9ba, -5px 5px 46px #e4e7e8;
+    border-bottom: solid red;
+}
+
+#projects {
+    margin: 15px;
+}
+
+.list-header ul li {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+#exp-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-header {
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 0px;
+    width: 240px;
+    height: 230px;
+    border-radius: 41px;
+    background: linear-gradient(45deg, #b9bbbc, #dbdfe0);
+    box-shadow: 5px -5px 10px #b6b9ba, -5px 5px 10px #e4e7e8;
+    text-align: center;
+}
+
+#exp-top {
+    text-align: center;
+    border-bottom: solid red;
+}
+
+#experience {
+    border-bottom: solid red;
+    padding-bottom: 15px;
+    margin-top: 300px;
+}
+
+#welcome-section h1 {
+    margin: 5px;
+}
+
+#welcome-section h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.icons i {
+    padding: 5px 10px;
+    color: black;
+}
+
+.get-intouch:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.get-intouch {
+    background-color: #f33f12;
+    border: none;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#img-div {
+    border-radius: 205px;
+    background: #cdd0d1;
+    box-shadow: 28px 28px 100px #757777, -28px -28px 100px #ffffff;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    background-color: red;
+    height: 100vh;
+    padding-top: 100px;
+    border-radius: 26px;
+    background: #cdd0d1;
+    box-shadow: 28px 28px 55px #bfc1c2, -28px -28px 55px #dbdfe0;
+    width: 100%;
+}
+
+body {
+    background-color: #e3e3e3;
+    margin: 0;
+}
